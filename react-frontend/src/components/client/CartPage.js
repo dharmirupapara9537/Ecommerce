@@ -68,7 +68,7 @@ const CartPage = () => {
           <div className="row align-items-center">
             <div className="col-md-2">
               <img
-                src={`http://127.0.0.1:8000/storage/products/${item.primary_image?.image_path}`}
+                src={`http://127.0.0.1:8000/storage/products/${item.images[0].image_path}`}
                 alt={item.name}
                 className="img-fluid rounded"
               />
